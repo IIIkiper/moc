@@ -1,0 +1,17 @@
+.moc-header {
+	position: absolute;
+	top: 0;
+	height: 26px;
+	width: 100%;
+	z-index: 2;
+	background: url(../img/header/logo-edge.png) repeat-x;
+}
+
+.moc-header div {
+	position: inherit;
+	top: inherit;
+	height: 57px;
+	width: 510px;
+	right: 200px;
+	background: url(../img/header/logo.png) no-repeat;	
+}

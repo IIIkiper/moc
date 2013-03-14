@@ -1,0 +1,93 @@
+.moc-filter {
+	position: absolute;
+	z-index: 2;
+}
+
+.moc-filer-tab {
+	position: relative;
+	width: 69px;
+	height: 81px;
+	background-color: black;
+	margin-bottom: 5px;
+}
+.moc-filer-tab:last-child {
+	margin-bottom: 0;
+}
+
+.moc-filer-tab div {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	right: 30px;
+	top: 5px;
+}
+
+.moc-filer-tab-layer {
+	
+}
+.moc-filer-tab-layer div {
+	background-color: red;
+}
+.moc-filer-tab-layer div:hover {
+	background-color: maroon;
+}
+.moc-filer-tab-layer.moc-filer-tab-layer-active div,
+.moc-filer-tab-layer.moc-filer-tab-layer-active div:hover {
+	background-color: silver;
+}
+
+.moc-filer-tab-addr {
+	
+}
+.moc-filer-tab-addr div {
+	background-color: orange;
+}
+.moc-filer-tab-addr div:hover {
+	background-color: yellow;
+}
+.moc-filer-tab-addr.moc-filer-tab-addr-active div,
+.moc-filer-tab-addr.moc-filer-tab-addr-active div:hover {
+	background-color: silver;
+}
+
+.moc-filer-tab-oper {
+	
+}
+.moc-filer-tab-oper div {
+	background-color: green;
+}
+.moc-filer-tab-oper div:hover {
+	background-color: lime;
+}
+.moc-filer-tab-oper.moc-filer-tab-oper-active div,
+.moc-filer-tab-oper.moc-filer-tab-oper-active div:hover {
+	background-color: silver;
+}
+
+.moc-filer-tab-serv {
+	
+}
+.moc-filer-tab-serv div {
+	background-color: blue;
+}
+.moc-filer-tab-serv div:hover {
+	background-color: navy;
+}
+.moc-filer-tab-serv.moc-filer-tab-serv-active div,
+.moc-filer-tab-serv.moc-filer-tab-serv-active div:hover {
+	background-color: silver;
+}
+
+.moc-filer-tab-date {
+	
+}
+.moc-filer-tab-date div {
+	background-color: purple;
+}
+.moc-filer-tab-date div:hover {
+	background-color: fuchsia;
+}
+.moc-filer-tab-date.moc-filer-tab-date-active div,
+.moc-filer-tab-date.moc-filer-tab-date-active div:hover {
+	background-color: silver;
+}

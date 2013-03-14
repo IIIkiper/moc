@@ -1,0 +1,25 @@
+@import url(navigation-bar.css);
+@import url(header.css);
+@import url(filter.css);
+@import url(folder.css);
+
+html, body, div#moc-map-container, .map.container {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+div#moc-map-container, div#moc-table-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+}
+
+div#moc-map-container {
+	top: 0;
+}
+
+div#moc-table-container {
+	top: 60px;
+}

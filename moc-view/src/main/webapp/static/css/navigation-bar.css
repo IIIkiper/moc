@@ -1,0 +1,124 @@
+div.moc-np {
+	background-image: url(../img/navigation-bar.png);
+	width: 60px;
+	height: 358px;
+	z-index: 2;
+	position: absolute;
+}
+
+div.moc-np-slider-ctr {
+	width: 100%;
+	height: 190px;
+	top: 105px;
+	left: 0;
+	position: absolute;
+}
+
+div.moc-np-tool, div.moc-np-tool-pan, div.moc-np-tool-pan-zoom {
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+div.moc-np-tool:hover, div.moc-np-tool-pan-selected, div.moc-np-tool-pan-zoom-selected {
+	background-image: url(../img/gis-tools.png);
+}
+
+/* 'Move left' button */
+div.moc-np-tool-left {
+	left: 0px;
+	top: 20px;
+}
+div.moc-np-tool-left:hover {
+	background-position: -220px 0px;
+}
+
+/* 'Move right' button */
+div.moc-np-tool-right {
+	left: 40px; 
+	top: 20px; 
+}
+div.moc-np-tool-right:hover {
+	background-position: -218px 22px;
+}
+
+/* 'Move up' button */
+div.moc-np-tool-up { 
+	left: 20px; 
+	top: 0px; 
+}
+div.moc-np-tool-up:hover {
+	background-position: -240px 0px;
+}
+
+/* 'Move down' button */
+div.moc-np-tool-down { 
+	left: 20px; 
+	top: 40px;
+}
+div.moc-np-tool-down:hover {
+	background-position: -240px 22px;
+}
+
+/* 'Full map' button */
+div.moc-np-tool-full-map { 
+	left: 20px; 
+	top: 20px;
+}
+div.moc-np-tool-full-map:hover {
+	background-position: -280px 0px;
+}
+
+/* 'Back' button */
+div.moc-np-tool-back { 
+	left: 10px; 
+	top: 65px; 
+}
+div.moc-np-tool-back:hover {
+	background-position: -260px 22px;
+}
+
+/* 'Next' button */
+div.moc-np-tool-forward { 
+	left: 30px; 
+	top: 65px;
+}
+div.moc-np-tool-forward:hover {
+	background-position: -258px 0px;
+}
+
+/* 'Zoom in' button */
+div.moc-np-tool-zoom-in { 
+	left: 20px; 
+	top: 90px;
+}
+div.moc-np-tool-zoom-in:hover {
+	background-position: -300px 0px;
+}
+
+/* 'Zoom out' button */
+div.moc-np-tool-zoom-out { 
+	left: 20px; 
+	top: 290px;
+}
+div.moc-np-tool-zoom-out:hover {
+	background-position: -300px 22px;
+}
+
+/* 'Pan' button */
+div.moc-np-tool-pan { 
+	left: 20px; 
+	top: 315px;
+}
+div.moc-np-tool-pan-selected {
+	background-position: -320px 0px;
+}
+
+/* 'Pan-zoom' button */
+div.moc-np-tool-pan-zoom {
+	left: 20px; 
+	top: 335px;
+}
+div.moc-np-tool-pan-zoom-selected {
+	background-position: -320px 22px;
+}
