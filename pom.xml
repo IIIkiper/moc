@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<inceptionYear>2013</inceptionYear>
+	<organization>
+		<name>IBS</name>
+		<url>http://www.ibs.ru</url>
+	</organization>
+	<developers>
+		<developer>
+			<name>Roman Zaripov</name>
+			<email>rzaripov@ibs.ru</email>
+		</developer>
+	</developers>
+		
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ru.ibs.moc</groupId>
+	<artifactId>moc</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>${project.artifactId}</name>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>moc-view</module>
+		<module>moc-service</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>ru.ibs.moc</groupId>
+				<artifactId>moc-service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>ru.ibs.moc</groupId>
+				<artifactId>moc-view</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>
