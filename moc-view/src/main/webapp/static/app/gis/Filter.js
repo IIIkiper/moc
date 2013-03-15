@@ -129,7 +129,7 @@ Ext.define('Moc.gis.Filter', {
 		var _maxWidth = 350;
 		var _topOffset = 30; // offset above top icon
 		var _bottomOffset = 20; // offset below bottom icon
-		var _rightOffset = 20; // offset from icons on the right
+		var _rightOffset = -3; // offset from icons on the right
 		
 		var _filter = Ext.create('Ext.window.Window', {
 			renderTo: _map.root.parentNode,

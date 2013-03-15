@@ -1,17 +1,32 @@
 .moc-header {
 	position: absolute;
 	top: 0;
-	height: 26px;
+	height: 32px;
 	width: 100%;
 	z-index: 2;
-	background: url(../img/header/logo-edge.png) repeat-x;
+/* 	display: table-row; */
+/* 	background: url(../img/header/logo-edge.png) repeat-x; */
 }
 
 .moc-header div {
-	position: inherit;
-	top: inherit;
-	height: 57px;
-	width: 510px;
-	right: 200px;
-	background: url(../img/header/logo.png) no-repeat;	
+	float: right;
+}
+
+.moc-header div:nth-child(2n + 1) {
+	height: 32px;	
+	background: url(../img/header/logo-edge.png) repeat-x;
+}
+.moc-header div:nth-child(1) {
+	width: 200px;
+}
+.moc-header div:nth-child(3) {
+	position: absolute;
+	left: 0;
+	right: 702px;
+}
+
+.moc-header div:nth-child(2) {
+	height: 63px;
+	width: 502px;
+	background: url(../img/header/logo.png) no-repeat;
 }

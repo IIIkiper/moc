@@ -58,13 +58,15 @@
 	</head>
 	<body class="claro">	
 		<input name="moc-folder" type="radio" id="moc-folder-1" checked="checked"/>
-		<label for="moc-folder-1">Карта</label>
+		<label for="moc-folder-1"></label>
 		<input name="moc-folder" type="radio" id="moc-folder-2"/>
-		<label for="moc-folder-2">Таблица</label>
-		<input name="moc-folder" type="radio" id="moc-folder-3"/>
-		<label for="moc-folder-3">????</label>
+		<label for="moc-folder-2"></label>
+<!-- 		<input name="moc-folder" type="radio" id="moc-folder-3"/> -->
+<!-- 		<label for="moc-folder-3">????</label> -->
 		
 		<div class="moc-header">
+			<div></div>
+			<div></div>
 			<div></div>
 		</div>
 		

@@ -19,7 +19,7 @@ define([
 		constructor: function() {
 			var _this = this;
 			
-			var _urlPrefix = 'http://fkdemodb.ibs.ru:9704/arcgis/rest/services/';
+			var _urlPrefix = 'http://fkdemodb.ibs.ru/arcgis/rest/services/';
 			
 			// Initial extent
 			this.extent = new esri.geometry.Extent({

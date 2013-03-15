@@ -11,26 +11,30 @@ body > div:nth-of-type(4) {
 
 body > label {
 	z-index: 3;
-	top: 30px;
+	top: 34px;
 	margin-right: 30px;
-	border: 1px solid red;
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
-	width: 80px;
-	height: 20px;
-	line-height: 20px;
-	text-align: center;
-	background-color: rgba(255,0,0,.5)
+	width: 147px;
+	height: 43px;
+	background: url(../img/tabs.png) 0 0 no-repeat;
 }
 
 body > label:nth-of-type(1) {
 	margin-left: 60px;
 }
-
-body > input[type="radio"]:checked + label {
-	border: 1px solid green;
-	background-color: rgba(0,128,0,.5)
+body > input[type="radio"]:nth-of-type(1) + label {
+	background-position: -147px 0;
+}
+body > input[type="radio"]:nth-of-type(2) + label {
+	
+}
+body > input[type="radio"]:nth-of-type(1):checked + label {
+	background-position: -441px 0;
+}
+body > input[type="radio"]:nth-of-type(2):checked + label {	
+	background-position: -294px 0;
 }
 
 body > input[type="radio"]:nth-of-type(1):checked ~ div:nth-of-type(2) {

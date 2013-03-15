@@ -6,9 +6,9 @@
 .moc-filer-tab {
 	position: relative;
 	width: 69px;
-	height: 81px;
-	background-color: black;
-	margin-bottom: 5px;
+	height: 88px;
+	margin-bottom: 2px;
+	background: url(../img/text.png) 0 0 no-repeat;
 }
 .moc-filer-tab:last-child {
 	margin-bottom: 0;
@@ -16,78 +16,79 @@
 
 .moc-filer-tab div {
 	position: relative;
-	width: 70px;
-	height: 70px;
-	right: 30px;
+	width: 96px;
+	height: 80px;
+	right: 50px;
 	top: 5px;
+	background: url(../img/buttons.png) 0 0 no-repeat;
 }
 
 .moc-filer-tab-layer {
 	
 }
 .moc-filer-tab-layer div {
-	background-color: red;
+	
 }
 .moc-filer-tab-layer div:hover {
-	background-color: maroon;
+	background-position: 0 -80px;
 }
 .moc-filer-tab-layer.moc-filer-tab-layer-active div,
 .moc-filer-tab-layer.moc-filer-tab-layer-active div:hover {
-	background-color: silver;
+	background-position: 0 -160px;
 }
 
 .moc-filer-tab-addr {
-	
+	background-position: -69px 0;
 }
 .moc-filer-tab-addr div {
-	background-color: orange;
+	background-position: -96px 0;
 }
 .moc-filer-tab-addr div:hover {
-	background-color: yellow;
+	background-position: -96px -80px;
 }
 .moc-filer-tab-addr.moc-filer-tab-addr-active div,
 .moc-filer-tab-addr.moc-filer-tab-addr-active div:hover {
-	background-color: silver;
+	background-position: -96px -160px;
 }
 
 .moc-filer-tab-oper {
-	
+	background-position: -138px 0;
 }
 .moc-filer-tab-oper div {
-	background-color: green;
+	background-position: -192px 0;
 }
 .moc-filer-tab-oper div:hover {
-	background-color: lime;
+	background-position: -192px -80px;
 }
 .moc-filer-tab-oper.moc-filer-tab-oper-active div,
 .moc-filer-tab-oper.moc-filer-tab-oper-active div:hover {
-	background-color: silver;
+	background-position: -192px -160px;
 }
 
 .moc-filer-tab-serv {
-	
+	background-position: -207px 0;
 }
 .moc-filer-tab-serv div {
-	background-color: blue;
+	background-position: -288px 0;
 }
 .moc-filer-tab-serv div:hover {
-	background-color: navy;
+	background-position: -288px -80px;
 }
 .moc-filer-tab-serv.moc-filer-tab-serv-active div,
 .moc-filer-tab-serv.moc-filer-tab-serv-active div:hover {
-	background-color: silver;
+	background-position: -288px -160px;
 }
 
 .moc-filer-tab-date {
-	
+	background-position: -276px 0;
 }
 .moc-filer-tab-date div {
-	background-color: purple;
+	background-position: -384px 0;
 }
 .moc-filer-tab-date div:hover {
-	background-color: fuchsia;
+	background-position: -384px -80px;
 }
 .moc-filer-tab-date.moc-filer-tab-date-active div,
 .moc-filer-tab-date.moc-filer-tab-date-active div:hover {
-	background-color: silver;
+	background-position: -384px -160px;
 }
